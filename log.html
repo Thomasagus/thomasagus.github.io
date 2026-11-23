@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity Log | Gus Meyer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Plain layout styling specifically for the log page */
+        .log-container {
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 4rem 5%;
+            min-height: 80vh;
+        }
+        .log-section {
+            margin-bottom: 3rem;
+        }
+        .log-section h2 {
+            text-align: left;
+            font-size: 1.5rem;
+            border-bottom: 2px solid var(--bg-light);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .log-list {
+            list-style-type: square;
+            padding-left: 1.5rem;
+            color: var(--light-text);
+        }
+        .log-list li {
+            margin-bottom: 0.75rem;
+        }
+        .log-date {
+            font-weight: 600;
+            color: var(--dark-text);
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><a href="index.html" style="text-decoration:none; color:inherit;">Gus Meyer</a></div>
+        <ul class="nav-links">
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="log.html">Log</a></li>
+        </ul>
+    </nav>
+
+    <div class="log-container">
+        <!-- Section 1: Certificates -->
+        <div class="log-section">
+            <h2>Certifications & Courses</h2>
+            <ul class="log-list">
+                <li><span class="log-date">2026</span> AWS Certified Cloud Practitioner</li>
+                <li><span class="log-date">2025</span> Advanced JavaScript Concepts (Udemy)</li>
+                <li><span class="log-date">2024</span> Introduction to UI/UX Design</li>
+            </ul>
+        </div>
+
+        <!-- Section 2: Involvement -->
+        <div class="log-section">
+            <h2>Involvement & Leadership</h2>
+            <ul class="log-list">
+                <li><span class="log-date">2025 - Present</span> Organizer, Local Tech Meetup Group</li>
+                <li><span class="log-date">2023 - 2024</span> Volunteer Mentor for coding bootcamp students</li>
+            </ul>
+        </div>
+
+        <!-- Section 3: Misc -->
+        <div class="log-section">
+            <h2>Miscellaneous Milestones</h2>
+            <ul class="log-list">
+                <li><span class="log-date">Oct 2025</span> Published article on building scalable web apps</li>
+                <li><span class="log-date">May 2025</span> Attended Web Summit 2025</li>
+                <li><span class="log-date">Aug 2024</span> First open-source contribution to a major library</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Gus Meyer. All rights reserved.</p>
+    </footer>
+</body>
+</html>
